@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    flex: 0 0 auto;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+img{
+    max-width: 100%;
+}
+li{
+    list-style: none;
+}
+a, a:hover{
+    text-decoration: none;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+    
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+header{
+    padding: 20px 0px;
+}
+.heading{
+    
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+.heading h2{
+    font-size: 40px;
+    margin-top: 40px;
+}
+.btn{}
+.col-4{
+    width: 25%;
+    padding: 15px;
+}
+.col-3{
+    width: 33.33%;
+    padding: 10px;
+    
+}
+
+h1{
+    font-size: 60px;
+    padding-bottom: 30px
+}
+h1 span{
+color: #21b573;
+font-size: 60px;
+}
+p{
+    font-size: 16px;
+    color: #413960;
+    line-height: 1.5;
+}
+
+/********** banner Section *********/
+.banner-section{
+    background: #F0FFF0;
+}
+header{
+    padding: 20px 0px;
+}
+
+.logo{
+    width: 20%;
+    padding: 15px;
+}
+.logo a{}
+.logo a, a:hover{
+    text-decoration: none;
+}
+nav{
+    width: 80%;
+    padding: 15px;
+}
+nav ul{
+justify-content: flex-end;
+display: flex;
+flex-wrap: wrap;
+}
+nav ul li{}
+nav ul li a{
+    color: black;
+    font-size: 17px;
+    margin: 0px 10px;
+    display: block;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition-duration: 0.3s;
+    font-weight: 600;
+}
+nav ul li a:hover{
+    background-color: #217C58;
+    color: #ffffff;
+}
+.banner-content{
+    width: 55%;
+}
+.banner-content h4{
+    color: #FD511A;
+    font-size: 16px;
+}
+.btn{
+    color: black;
+    font-size: 17px;
+    margin: 10px ;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition-duration: 0.3s;
+  
+}
+.btn:hover{
+    background-color: #217C58;
+    color: white;
+}
+.banner-image{
+    width: 45%;
+    
+}
+
+
+
+/********** Feature Section *********/
+.feature-Section{
+
+}
+.feature:hover{
+    box-shadow: 0px 10px 40px 0px #00000014;
+    background: white;
+    transition-duration: 0.3s;
+}
+.feature{
+    text-align: center;
+    padding: 40px 30px;
+    background: honeydew;
+    border-radius: 10%;
+}
+.feature img{
+    height: 90px;
+}
+.feature h3{
+    color: black;
+    font-size: 20px;
+    padding: 15px 0px 5px;
+}
+.feature p{
+    font-size: 12px;
+    text-align: center;
+    padding-right: 5px;
+}
+
+/********** Courses Section *********/
+
+.course{
+    box-shadow: 0px 10px 40px 0px #00000014;
+    padding: 15px;
+    border-radius: 15px;
+}
+.course img{
+    color: #413960;
+    font-size: 20px;
+    margin: 5px;
+}
+.course h3{
+    color: #413960;
+    font-size: 20px;
+    margin: 5px;
+}
+.course span{
+   color: #413960;
+   font-size: 18px;
+    display: block;
+}
+.course ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 auto;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+
+/********** Testimonial Section *********/
+.testimonial-section{
+    padding: 50px 0px;
+}
+.client-img{
+    width: 11%;
+    padding: 20px;
+    
+}
+
+.client-content{
+    width: 52%;
+    padding: 15px;
+}
+
+
+.testimonial-section .flex{
+    justify-content:center;
+    align-items: center;
+}
+
+/********** Footer Section *********/
+footer{
+    background-color: #39393b;
+    padding: 30px;
+}
+footer p {
+color: white;
+ font-size: 11px;
+ line-height: 1.5;
+}
+footer ul{
+    color: white;
+    line-height: 1.5;
+    padding: 0px 20px;
+}
+footer ul li{
+    font-size: 12px;
+    display: block;
+    padding: 3px 0px;
+}
+footer ul li strong{
+    font-size: 16px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.copyright{
+    text-align: center;
+    padding: 30px 0px 10px;
+    font-size: 16px;
+}
+.copyright a{
+    color: purple;
+  
+}
+.copyright a:hover{
+    color: green;
+}
